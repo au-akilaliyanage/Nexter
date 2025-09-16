@@ -1,7 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Nunito", sans-serif;
-  font-weight: 300;
   color: #6D5D4B;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -15,25 +33,6 @@ body {
   font-size: 3rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-*, *:after, *:before {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .gallery {
   background-color: #54483A;
   grid-column: full-start/full-end;
@@ -45,9 +44,8 @@ img {
 }
 
 .features {
-  background-color: #aaa;
+  background-color: #6D5D4B;
   grid-column: center-start/center-end;
-  grid-row: 2/3;
 }
 
 .realtors {
@@ -61,7 +59,7 @@ img {
 }
 .story__content {
   background-color: #f9f7f6;
-  grid-column: col-start 5/full-end;
+  grid-column: col-start 4/full-end;
 }
 
 .footer {

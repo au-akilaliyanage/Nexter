@@ -1,1 +1,7 @@
 @use "../abstracts" as *;
+
+
+.features {
+  background-color: $color-grey-dark-2;
+  grid-column: center-start / center-end;
+}

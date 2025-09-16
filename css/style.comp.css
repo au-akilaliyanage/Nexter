@@ -1,19 +1,36 @@
-/* Error: Expected expression.
- *   ,
- * 4 |   font-family: @font-family;
- *   |                ^
- *   '
- *   sass/base/_base.scss 4:16  @forward
- *   sass/base/_index.scss 2:1  @use
- *   sass/main.scss 2:1         root stylesheet */
+* {
+  padding: 0;
+  margin: 0;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a   \2577 \a 4 \2502    font-family: @font-family;\a   \2502                 ^\a   \2575 \a   sass/base/_base.scss 4:16  @forward\a   sass/base/_index.scss 2:1  @use\a   sass/main.scss 2:1         root stylesheet";
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.realtors {
+  background-color: #101d2c;
+}
+
+.sidebar {
+  background-color: #c69963;
+}
+
+.header {
+  background-color: #54483A;
 }
